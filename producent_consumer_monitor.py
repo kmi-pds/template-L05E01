@@ -1,7 +1,7 @@
 import random
 import time
 import string
-from threading import Thread, Condition
+from threading import Thread, Condition, Lock
 
 
 class MonitorPC:
